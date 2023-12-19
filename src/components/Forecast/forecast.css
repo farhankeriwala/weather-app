@@ -1,0 +1,39 @@
+.forecast-container{
+    margin: 20px auto;
+    padding: 40px;
+    width: 64rem;
+    border-radius: 16px;
+    text-align: center;
+}
+.day{
+    font-size: 32px;
+    font-weight: 600;
+    color: #3d405b;
+}
+.daily-forecast{
+    padding: 32px;
+    margin-top: 16px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.forecast-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-small{
+    width: 4rem;
+}
+.forecast-description{
+    font-size: 18px;
+}
+.forecast-temp{
+    font-size: 32px;
+}
+.condition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
